@@ -1,4 +1,4 @@
-# Javascript, TypeScript, and Python Interpreter API
+# JavaScript, TypeScript, and Python Interpreter API
 
 **Written by**: Noah Clark 
 
