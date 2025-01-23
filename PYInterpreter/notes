@@ -1,0 +1,9 @@
+curl -X POST -H "Content-Type: application/json" -d '{"code": "result = 5 + 10"}' http://127.0.0.1:8080/
+
+gcloud builds submit --tag gcr.io/{CONTAINER_NAME}/pyinterpreter
+
+gcloud run deploy pyinterpreter --image gcr.io/{CONTAINER_NAME}/pyinterpreter --platform managed
+
+gcloud run services describe pyinterpreter --platform managed --format="get(status.url)"
+
+gcloud run services add-iam-policy-binding pyinterpreter --member="SERVICE_ACCOUNT_NAME" --role="roles/run.invoker"

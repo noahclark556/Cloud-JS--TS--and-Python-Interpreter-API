@@ -1,0 +1,40 @@
+Test 1
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgY29uc3Qgc3VtID0gMSArIDI7CiAgc3VtOwogIA=="}'
+______________________
+Test 2
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgY29uc29sZS5sb2coIkhlbGxvLCBXb3JsZCEiKTsKICA="}'
+______________________
+Test 3
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgZnVuY3Rpb24gdGVzdCgpIHsKICBmb3IgKGxldCBpID0gMDsgaSA8IDU7IGkrKykgewogICAgY29uc29sZS5sb2coIkl0ZXJhdGlvbjogIiArIGkpOwogIH0KICByZXR1cm4gIkxvb3AgQ29tcGxldGUiOwp9CnRlc3QoKTsKICA="}'
+______________________
+Test 4
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgZnVuY3Rpb24gY2hlY2tOdW1iZXIobnVtKSB7CiAgaWYgKG51bSA+IDApIHsKICAgIHJldHVybiAiUG9zaXRpdmUiOwogIH0gZWxzZSBpZiAobnVtIDwgMCkgewogICAgcmV0dXJuICJOZWdhdGl2ZSI7CiAgfSBlbHNlIHsKICAgIHJldHVybiAiWmVybyI7CiAgfQp9CmNoZWNrTnVtYmVyKDEwKTsKICA="}'
+______________________
+Test 5
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgZnVuY3Rpb24gdGVzdEVycm9ySGFuZGxpbmcoKSB7CiAgdHJ5IHsKICAgIGNvbnNvbGUubG9nKCJCZWZvcmUgZXJyb3IiKTsKICAgIC8vIFRoaXMgd2lsbCB0aHJvdyBhIFJlZmVyZW5jZUVycm9yCiAgICBub3REZWZpbmVkRnVuY3Rpb24oKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5sb2coIkNhdWdodCBlcnJvcjoiLCBlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiAiRXJyb3IgaGFuZGxlZCI7CiAgfQp9CnRlc3RFcnJvckhhbmRsaW5nKCk7CiAg"}'
+______________________
+Test 6
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgZnVuY3Rpb24gZmFjdG9yaWFsKG4pIHsKICBpZiAobiA9PT0gMCkgewogICAgcmV0dXJuIDE7CiAgfQogIHJldHVybiBuICogZmFjdG9yaWFsKG4gLSAxKTsKfQpmYWN0b3JpYWwoNSk7CiAg"}'
+______________________
+Test 7
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAoYXN5bmMgKCkgPT4gewogICAgICAgICAgICBmdW5jdGlvbiBhc3luY1Rlc3QoKSB7CiAgICAgICAgICAgICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiB7CiAgICAgICAgICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coIkFzeW5jIG9wZXJhdGlvbiBjb21wbGV0ZSIpOwogICAgICAgICAgICAgICAgICByZXNvbHZlKCJBc3luYyByZXN1bHQiKTsKICAgICAgICAgICAgICAgIH0sIDEwMDApOwogICAgICAgICAgICAgIH0pOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBhc3luY1Rlc3QoKTsgLy8gUmV0dXJuIHRoZSBwcm9taXNlCiAgICAgICAgICB9KSgpOwogIA=="}'
+
+Test 8
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgY29uc3QgcGVyc29uID0gewogIGZpcnN0TmFtZTogIkpvaG4iLAogIGxhc3ROYW1lOiAiRG9lIiwKICBnZXRGdWxsTmFtZSgpIHsKICAgIHJldHVybiB0aGlzLmZpcnN0TmFtZSArICIgIiArIHRoaXMubGFzdE5hbWU7CiAgfQp9OwpwZXJzb24uZ2V0RnVsbE5hbWUoKTsKICA="}'
+______________________
+Test 9
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgZnVuY3Rpb24gY3JlYXRlTXVsdGlwbGllcihtdWx0aXBsaWVyKSB7CiAgcmV0dXJuIGZ1bmN0aW9uKG51bSkgewogICAgcmV0dXJuIG51bSAqIG11bHRpcGxpZXI7CiAgfTsKfQpjb25zdCBkb3VibGUgPSBjcmVhdGVNdWx0aXBsaWVyKDIpOwpkb3VibGUoNSk7CiAg"}'
+
+TS:
+
+Test 12
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CmZ1bmN0aW9uIGFkZChhOiBudW1iZXIsIGI6IG51bWJlcik6IG51bWJlciB7CiAgcmV0dXJuIGEgKyBiOwp9Cgpjb25zb2xlLmxvZyhhZGQoMiwgMykpOwoK", "isTypeScript":true}'
+______________________
+Test 13
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgaW50ZXJmYWNlIFBlcnNvbiB7CiAgZmlyc3ROYW1lOiBzdHJpbmc7CiAgbGFzdE5hbWU6IHN0cmluZzsKICBhZ2U6IG51bWJlcjsKfQoKY29uc3QgcGVyc29uOiBQZXJzb24gPSB7CiAgZmlyc3ROYW1lOiAiSmFuZSIsCiAgbGFzdE5hbWU6ICJEb2UiLAogIGFnZTogMzAKfTsKCmNvbnNvbGUubG9nKHBlcnNvbi5maXJzdE5hbWUgKyAiICIgKyBwZXJzb24ubGFzdE5hbWUpOwogICAg", "isTypeScript":true}'
+______________________
+Test 14
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgICBmdW5jdGlvbiBmZXRjaERhdGEoKTogUHJvbWlzZTxzdHJpbmc+IHsKICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHsKICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICByZXNvbHZlKCJEYXRhIGZldGNoZWQhIik7CiAgICB9LCAxMDAwKTsKICB9KTsKfQoKYXN5bmMgZnVuY3Rpb24gZ2V0RGF0YSgpIHsKICBjb25zdCByZXN1bHQgPSBhd2FpdCBmZXRjaERhdGEoKTsKICBjb25zb2xlLmxvZyhyZXN1bHQpOwp9CgpnZXREYXRhKCk7CgogICAg", "isTypeScript":true}'
+______________________
+Test 15
+curl -X POST http://localhost:3001/jsinterpreter -H "Content-Type: application/json" -d '{"code": "CiAgICBjbGFzcyBBbmltYWwgewogIGNvbnN0cnVjdG9yKHB1YmxpYyBuYW1lOiBzdHJpbmcpIHt9CiAgCiAgc3BlYWsoKTogc3RyaW5nIHsKICAgIHJldHVybiBgJHt0aGlzLm5hbWV9IG1ha2VzIGEgbm9pc2UuYDsKICB9Cn0KCmNsYXNzIERvZyBleHRlbmRzIEFuaW1hbCB7CiAgc3BlYWsoKTogc3RyaW5nIHsKICAgIHJldHVybiBgJHt0aGlzLm5hbWV9IGJhcmtzLmA7CiAgfQp9Cgpjb25zdCBkb2cgPSBuZXcgRG9nKCJSZXgiKTsKY29uc29sZS5sb2coZG9nLnNwZWFrKCkpOwogICAg", "isTypeScript":true}'
