@@ -14,7 +14,7 @@
 
 ## Description
 
-This repository contains a multi-language interpreter API that allows you to execute JavaScript, TypeScript, and Python code via HTTP requests. The API is built using Node.js for JavaScript/TypeScript and Flask for Python.
+This repository contains a multi-language interpreter API that allows you to execute JavaScript, TypeScript (technically compiled), and Python code via HTTP requests. The API is built using Node.js for JavaScript/TypeScript and Flask for Python.
 
 ## Note to Viewer
 Excuse the lack of comments and notes, I was rushing during the time of dev and took hand written notes.
